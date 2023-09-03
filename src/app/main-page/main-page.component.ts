@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
-import { Router } from '@angular/router';
+import AOS from 'aos';
+
+
 
 @Component({
   selector: 'app-main-page',
@@ -19,6 +21,10 @@ export class MainPageComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
+    AOS.init({
+    
+    });
   }
 
 }

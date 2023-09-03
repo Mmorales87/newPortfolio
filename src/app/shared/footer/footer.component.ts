@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import AOS from 'aos';
 
 
 
@@ -15,7 +16,9 @@ export class FooterComponent {
   constructor(){}
 
   ngOnInit(){
-    
+    AOS.init({
+      
+    });
   }
 
 }

@@ -11709,6 +11709,7 @@ a.text-dark:focus {
 }
 
 body {
+  margin: 0px !important;
   font-family: "Poppins", Arial, sans-serif;
   background: #000000;
   font-size: 16px;
