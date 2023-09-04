@@ -12674,7 +12674,7 @@ h5,
 .resume-wrap {
   width: 100%;
   margin-bottom: 30px;
-  background: rgba(255, 255, 255, 0.1);
+  background: #232323;
   padding: 30px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -13254,7 +13254,7 @@ textarea.form-control {
   top: 0px;
   left: 0;
   font-size: 7vw;
-  color: rgba(255, 255, 255, 0.1);
+  color: #ffc1070a;
   z-index: -1;
   font-weight: 900;
 }
