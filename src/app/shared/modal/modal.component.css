@@ -1,0 +1,56 @@
+/* Estilos para el título */
+.title {
+    flex: 1;
+}
+
+.close-button {
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+}
+
+.modal-container {
+    position: relative;
+    margin: 0 auto;
+}
+
+.modal-style {
+    position: relative;
+    background-color: #232323;
+    padding: 45px;
+}
+
+.floating-bar {
+    background-color: #232323;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.modal-button {
+    margin-top: 20px;
+}
+
+.image-carousel-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+
+.image-carousel {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.image-carousel img {
+    width: 300px;
+}
+
+.github-icon {
+    font-size: 50px;
+    color: #FFC107;
+  }
+  

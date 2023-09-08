@@ -6578,7 +6578,11 @@ a.close.disabled {
   background-clip: padding-box;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
-
+.mat-dialog-lg {
+  width: 100%;
+  max-height: 100%; /* Ajusta el valor según tus necesidades */
+  overflow-y: auto;
+}
 .toast-body {
   padding: 0.75rem;
 }
@@ -12953,6 +12957,11 @@ h5,
   color: #ffbd39;
 }
 
+.project .text h3  {
+  color: #ffbd39;
+  user-select: none;
+}
+
 .project .text span {
   color: rgba(255, 255, 255, 0.8);
   text-transform: uppercase;
@@ -13939,3 +13948,5 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

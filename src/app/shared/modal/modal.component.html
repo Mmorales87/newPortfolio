@@ -1,0 +1,23 @@
+<div class="modal-style modal-container">
+    <div class="floating-bar">
+        <div class="title">
+            <h2 style="color: #ffc107;">{{ data.title }}</h2>
+        </div>
+        <div class="close-button">
+            <a mat-dialog-close>x</a>
+        </div>
+    </div>
+    <div class="image-carousel-container">
+        <div class="image-carousel pt-5">
+            <ng-container *ngFor="let image of data.images">
+                <img [src]="image" alt="Imagen" width="300">
+            </ng-container>
+        </div>
+    </div>
+    <p [innerHTML]="data.description"></p>
+    <ng-container *ngIf="data.link">
+        <a target="_blank" [href]="data.link">
+            <i class="devicon-github-original-wordmark github-icon"></i>
+        </a>
+    </ng-container>
+</div>

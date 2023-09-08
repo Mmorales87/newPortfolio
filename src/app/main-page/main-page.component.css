@@ -83,3 +83,12 @@ progress-bar-striped {
     color: var(--primary);
     background: #FFFFFF;
 }
+
+.github-icon {
+    font-size: 50px;
+    color: #0366d6; /* Color azul típico de GitHub */
+  }
+  .devicon-github-original-wordmark {
+    /* Define cualquier estilo específico para el icono si es necesario */
+  }
+  
