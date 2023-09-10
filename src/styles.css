@@ -54,7 +54,13 @@ main,
 nav,
 section {
   display: block;
+   scrollbar-gutter: stable;
 }
+
+::-webkit-scrollbar {
+  display: none !important;
+}
+
 
 body {
   margin: 0;
@@ -578,6 +584,9 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+
+  scrollbar-width: none !important;
+  overflow-y: scroll !important;
 }
 
 @media (min-width: 576px) {
@@ -11779,13 +11788,13 @@ h5,
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 30px;
   }
 }
 
 .ftco-navbar-light .container {
   width: 1110px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 0;
 }
 
