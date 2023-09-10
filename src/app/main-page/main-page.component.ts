@@ -41,7 +41,7 @@ export class MainPageComponent implements OnInit {
       functionality and user experience.`,
       images: ['assets/projects/Spike_main.png',
         'assets/projects/spike2.png'],
-      link: `https://github.com/Mmorales87/spikeV.2`
+      link: `https://github.com/Mmorales87/SpikeV.2-public`
     },
     booking:
     {
@@ -111,7 +111,11 @@ export class MainPageComponent implements OnInit {
       enthusiasts and coffee lovers alike.
       <br><br>
       Make your workspace smarter and more comfortable with this innovative addition!`,
-      images: ['assets/projects/handrelease2.png', 'assets/projects/handrelease3.png', 'assets/projects/handrelease4.png', 'assets/projects/handrelease5.png', 'assets/projects/handrelease6.png',],
+      images: ['assets/projects/handrelease2.png',
+        'assets/projects/handrelease3.png',
+        'assets/projects/handrelease4.png',
+        'assets/projects/handrelease5.png',
+        'assets/projects/handrelease6.png',],
       link: `https://github.com/Mmorales87/ESP32_Start_Windows`
     },
     medical:
@@ -120,7 +124,7 @@ export class MainPageComponent implements OnInit {
       description: `This versatile application offers three key sections: Doctor, Patient, and Specialty,
       making it easy to manage appointments, track patient-doctor relationships, and
       categorize medical specialties.
-
+      <br><br>
       <strong>Key Features:</strong>
       Effortless Scheduling: With this app, you can effortlessly assign specific days and
       times to patients while linking them to their respective doctors. This ensures efficient
@@ -154,8 +158,12 @@ export class MainPageComponent implements OnInit {
       and precision.
       <br><br>
       Experience the future of medical appointment management.`,
-      images: ['assets/projects/turno.png', 'assets/projects/turno2.png', 'assets/projects/turno3.png', 'assets/projects/turno4.png', 'assets/projects/turno5.png'],
-      link: `https://github.com/Mmorales87/ClinicalManagement/tree/main/turnos`
+      images: ['assets/projects/turno.png',
+        'assets/projects/turno2.png',
+        'assets/projects/turno3.png',
+        'assets/projects/turno4.png',
+        'assets/projects/turno5.png'],
+      link: `https://github.com/Mmorales87/ClinicalManagement-public`
     },
     phpcrud:
     {
@@ -186,7 +194,9 @@ export class MainPageComponent implements OnInit {
       <br><br>
       Udemy Learning: This project was part of my Udemy course, reflecting my commitment to
       continuous learning and skill enhancement.`,
-      images: ['assets/projects/crud_php1.PNG', 'assets/projects/crud_php2.PNG', 'assets/projects/crud_php2.PNG'],
+      images: ['assets/projects/crud_php1.PNG',
+        'assets/projects/crud_php2.PNG',
+        'assets/projects/crud_php2.PNG'],
       link: ``
     },
     cliorace:
@@ -223,7 +233,10 @@ export class MainPageComponent implements OnInit {
       Whether you're a car enthusiast or a gaming enthusiast, this project offers a
       one-of-a-kind gaming experience that combines the thrill of driving with the excitement
       of shooting.`,
-      images: ['assets/projects/CSR.JPG', 'assets/projects/CSR2.JPG', 'assets/projects/CSR4.JPG', 'assets/projects/CSR3.JPG'],
+      images: ['assets/projects/CSR.JPG',
+        'assets/projects/CSR2.JPG',
+        'assets/projects/CSR4.JPG',
+        'assets/projects/CSR3.JPG'],
       link: `https://github.com/Mmorales87/cliosportgame`
     },
     objectdetection:
@@ -286,7 +299,8 @@ export class MainPageComponent implements OnInit {
       This project is a testament to my early experiences with Java development and serves as
       a
       practical solution for managing login information.`,
-      images: ['assets/projects/Password_manager.png', 'assets/projects/Password_manager-data-base.png'],
+      images: ['assets/projects/Password_manager.png',
+        'assets/projects/Password_manager-data-base.png'],
       link: ``
     }
   }
