@@ -8,14 +8,13 @@ import AOS from 'aos';
 @Component({
   selector: 'app-main-page',
   templateUrl: './main-page.component.html',
-  styleUrls: ['./main-page.component.css']
+  styleUrls: ['./main-page.component.css'],
 })
 export class MainPageComponent implements OnInit {
-  constructor(private modalService: ModalService) { }
+  constructor(private modalService: ModalService) {}
 
   public projects = {
-    spike:
-    {
+    spike: {
       title: 'Spike Valorant',
       description: `Scale replica of the Spike created using an ESP32 microcontroller, skillfully programmed
       within the Arduino IDE environment.
@@ -39,12 +38,10 @@ export class MainPageComponent implements OnInit {
       <strong>Pending Enhancement:</strong> Future improvements include creating threads for
       enhanced
       functionality and user experience.`,
-      images: ['assets/projects/Spike_main.png',
-        'assets/projects/spike2.png'],
-      link: `https://github.com/Mmorales87/SpikeV.2-public`
+      images: ['assets/projects/Spike_main.png', 'assets/projects/spike2.png'],
+      link: `https://github.com/Mmorales87/SpikeV.2-public`,
     },
-    booking:
-    {
+    booking: {
       title: 'Booking webapp',
       description: `Welcome to booking platform, a personal creation developed using Angular, JavaScript,
       TypeScript, Node.js, and MongoDB. This platform is designed to streamline your booking
@@ -71,17 +68,20 @@ export class MainPageComponent implements OnInit {
       Whether it's booking a table at your favorite restaurant, scheduling an appointment at a
       spa, or securing a spot at a popular event, my website is your go-to destination.
       <br><br>
-      Why wait? Try it now and make your reservation today! Explore the future of hassle-free
+      Why wait?  <a href="www.google.es" target="_blank" class="  py-3 px-4">
+      Try it
+    </a> now and make your reservation today! Explore the future of hassle-free
       bookings!`,
-      images: ['assets/projects/booking4.png',
+      images: [
+        'assets/projects/booking4.png',
         'assets/projects/booking5.png',
         'assets/projects/booking6.png',
         'assets/projects/booking7.png',
-        'assets/projects/booking8.png'],
-      link: `https://github.com/Mmorales87/bookingCasaJodie`
+        'assets/projects/booking8.png',
+      ],
+      link: `https://github.com/Mmorales87/bookingCasaJodie`,
     },
-    handrelease:
-    {
+    handrelease: {
       title: 'Handrelease for keyboard',
       description: `Introducing a wrist rest crafted with Arduino, simplifying PC login via Bluetooth.
       <br><br>
@@ -111,15 +111,16 @@ export class MainPageComponent implements OnInit {
       enthusiasts and coffee lovers alike.
       <br><br>
       Make your workspace smarter and more comfortable with this innovative addition!`,
-      images: ['assets/projects/handrelease2.png',
+      images: [
+        'assets/projects/handrelease2.png',
         'assets/projects/handrelease3.png',
         'assets/projects/handrelease4.png',
         'assets/projects/handrelease5.png',
-        'assets/projects/handrelease6.png',],
-      link: `https://github.com/Mmorales87/ESP32_Start_Windows`
+        'assets/projects/handrelease6.png',
+      ],
+      link: `https://github.com/Mmorales87/ESP32_Start_Windows`,
     },
-    medical:
-    {
+    medical: {
       title: 'Control of shifts',
       description: `This versatile application offers three key sections: Doctor, Patient, and Specialty,
       making it easy to manage appointments, track patient-doctor relationships, and
@@ -158,15 +159,16 @@ export class MainPageComponent implements OnInit {
       and precision.
       <br><br>
       Experience the future of medical appointment management.`,
-      images: ['assets/projects/turno.png',
+      images: [
+        'assets/projects/turno.png',
         'assets/projects/turno2.png',
         'assets/projects/turno3.png',
         'assets/projects/turno4.png',
-        'assets/projects/turno5.png'],
-      link: `https://github.com/Mmorales87/ClinicalManagement-public`
+        'assets/projects/turno5.png',
+      ],
+      link: `https://github.com/Mmorales87/ClinicalManagement-public`,
     },
-    phpcrud:
-    {
+    phpcrud: {
       title: 'CRUD PHP',
       description: `This project, developed using PHP, MySQL, Apache (via XAMPP), and Visual Studio Code,
       marks a significant step in my journey to mastering web development.
@@ -194,13 +196,14 @@ export class MainPageComponent implements OnInit {
       <br><br>
       Udemy Learning: This project was part of my Udemy course, reflecting my commitment to
       continuous learning and skill enhancement.`,
-      images: ['assets/projects/crud_php1.PNG',
+      images: [
+        'assets/projects/crud_php1.PNG',
         'assets/projects/crud_php2.PNG',
-        'assets/projects/crud_php2.PNG'],
-      link: ``
+        'assets/projects/crud_php2.PNG',
+      ],
+      link: ``,
     },
-    cliorace:
-    {
+    cliorace: {
       title: 'Android game 🏁 Clio Sport Race 🏁',
       description: `Introducing my Android Studio game 2D top-down view game that puts
       you in the driver's seat of a Renault Clio Sport 182CV. Your Clio can shoot! Yes,
@@ -233,14 +236,15 @@ export class MainPageComponent implements OnInit {
       Whether you're a car enthusiast or a gaming enthusiast, this project offers a
       one-of-a-kind gaming experience that combines the thrill of driving with the excitement
       of shooting.`,
-      images: ['assets/projects/CSR.JPG',
+      images: [
+        'assets/projects/CSR.JPG',
         'assets/projects/CSR2.JPG',
         'assets/projects/CSR4.JPG',
-        'assets/projects/CSR3.JPG'],
-      link: `https://github.com/Mmorales87/cliosportgame`
+        'assets/projects/CSR3.JPG',
+      ],
+      link: `https://github.com/Mmorales87/cliosportgame`,
     },
-    objectdetection:
-    {
+    objectdetection: {
       title: 'Object detection',
       description: `A combination of hardware and software using an ESP32-CAM module with object recognition
       powered by OpenCV.
@@ -273,10 +277,9 @@ export class MainPageComponent implements OnInit {
       Join me in exploring the intersection of hardware, software, and innovation as we unlock
       new possibilities with this Arduino-based project.`,
       images: [],
-      link: ``
+      link: ``,
     },
-    passmanagement:
-    {
+    passmanagement: {
       title: 'Password manager',
       description: `Password Manager with CRUD functionality that currently stores platform, username, and
       password records in a MySQL database. While the user interface may not be flashy, it
@@ -299,25 +302,30 @@ export class MainPageComponent implements OnInit {
       This project is a testament to my early experiences with Java development and serves as
       a
       practical solution for managing login information.`,
-      images: ['assets/projects/Password_manager.png',
-        'assets/projects/Password_manager-data-base.png'],
-      link: ``
-    }
-  }
+      images: [
+        'assets/projects/Password_manager.png',
+        'assets/projects/Password_manager-data-base.png',
+      ],
+      link: ``,
+    },
+  };
 
   customOptions: OwlOptions = {
     loop: true,
     margin: 10,
     nav: true,
-    items: 3
+    items: 3,
   };
   projectInfo: any;
 
-
-  openModal(title: string, description: string, images: string[], link: string) {
+  openModal(
+    title: string,
+    description: string,
+    images: string[],
+    link: string
+  ) {
     this.modalService.openModal(title, description, images, link);
   }
-
 
   // Integrar para que al abrir el modal se inicie arriba del todo
   scrollToTop() {
@@ -325,10 +333,6 @@ export class MainPageComponent implements OnInit {
   }
 
   ngOnInit() {
-
-    AOS.init({
-
-    });
+    AOS.init({});
   }
-
 }
