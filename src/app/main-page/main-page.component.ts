@@ -3,8 +3,6 @@ import { ModalService } from '../modal.service';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 import AOS from 'aos';
 
-
-
 @Component({
   selector: 'app-main-page',
   templateUrl: './main-page.component.html',
@@ -67,6 +65,11 @@ export class MainPageComponent implements OnInit {
       platform.
       Whether it's booking a table at your favorite restaurant, scheduling an appointment at a
       spa, or securing a spot at a popular event, my website is your go-to destination.
+      <br><br>
+      Why wait?  <a href="casajodie.stayandcode.com" target="_blank" class="py-3 px-4">
+      Try it
+      </a> now and make your reservation today! Explore the future of hassle-free
+      bookings!
       `,
       images: [
         'assets/projects/booking4.png',
@@ -77,12 +80,12 @@ export class MainPageComponent implements OnInit {
       ],
       link: ``,
 
-    //  Una vez subida la web y creado el server en aws, poner esto al final de description
-    //   <br><br>
-    //   Why wait?  <a href="www.google.es" target="_blank" class="py-3 px-4">
-    //   Try it
-    // </a> now and make your reservation today! Explore the future of hassle-free
-    //   bookings!
+      //  Una vez subida la web y creado el server en aws, poner esto al final de description
+      //   <br><br>
+      //   Why wait?  <a href="www.google.es" target="_blank" class="py-3 px-4">
+      //   Try it
+      // </a> now and make your reservation today! Explore the future of hassle-free
+      //   bookings!
     },
     handrelease: {
       title: 'Handrelease for keyboard',
