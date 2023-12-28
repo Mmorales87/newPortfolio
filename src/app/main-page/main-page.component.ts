@@ -61,10 +61,7 @@ export class MainPageComponent implements OnInit {
       reservation and experience firsthand the confirmation email that will arrive in your
       inbox.
       <br><br>
-      Don't wait any longer to discover the convenience of making a reservation on my
-      platform.
-      Whether it's booking a table at your favorite restaurant, scheduling an appointment at a
-      spa, or securing a spot at a popular event, my website is your go-to destination.
+
       <br><br>
       Why wait?  <a href="casajodie.stayandcode.com" target="_blank" class="py-3 px-4">
       Try it
