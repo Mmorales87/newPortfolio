@@ -63,7 +63,7 @@ export class MainPageComponent implements OnInit {
       <br><br>
 
       <br><br>
-      Why wait?  <a href="casajodie.stayandcode.com" target="_blank" class="py-3 px-4">
+      Why wait?  <a href="http://casajodie.stayandcode.com" target="_blank" class="py-3 px-4">
       Try it
       </a> now and make your reservation today! Explore the future of hassle-free
       bookings!
